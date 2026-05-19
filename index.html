@@ -13,14 +13,18 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
   <title>Formulas</title>
+
 </head>
 
-<body class="bg-gradient-to-b from-gray-50 to-purple-50">
+<body class="bg-gradient-to-b from-gray-50 to-purple-50 overflow-x-hidden">
 
-  <!-- Navbar -->
+  <!-- =========================
+        Navbar Section
+  ========================== -->
+
   <section>
 
-    <div class="navbar bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
+    <div class="navbar bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50 px-2 md:px-6">
 
       <!-- Left -->
       <div class="navbar-start">
@@ -46,7 +50,8 @@
           </div>
 
           <!-- Dropdown Menu -->
-          <ul tabindex="-1"
+          <ul
+            tabindex="-1"
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
 
             <li class="hover:bg-purple-700 hover:text-white rounded-lg">
@@ -70,11 +75,11 @@
       <!-- Center Logo -->
       <div class="navbar-center">
 
-        <a class="text-xl font-mono tracking-wide">
+        <a class="font-mono tracking-wide">
 
           <!-- F -->
           <span
-            class="text-5xl font-extrabold text-purple-700 inline-block"
+            class="text-3xl md:text-5xl font-extrabold text-purple-700 inline-block"
             data-aos="zoom-in-right"
             data-aos-duration="1200">
 
@@ -84,7 +89,7 @@
 
           <!-- ormula -->
           <span
-            class="text-2xl font-bold text-purple-600 inline-block"
+            class="text-lg md:text-2xl font-bold text-purple-600 inline-block"
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-duration="1200">
@@ -95,7 +100,7 @@
 
           <!-- S -->
           <span
-            class="text-5xl font-extrabold text-purple-700 inline-block"
+            class="text-3xl md:text-5xl font-extrabold text-purple-700 inline-block"
             data-aos="zoom-in-left"
             data-aos-delay="400"
             data-aos-duration="1200">
@@ -121,24 +126,27 @@
 
   </section>
 
-  <!-- Hero Section -->
+  <!-- =========================
+        Hero Section
+  ========================== -->
+
   <section class="max-w-[1820px] mx-auto">
 
     <div
-      class="hero min-h-[550px] bg-cover bg-center"
+      class="hero min-h-[400px] md:min-h-[550px] bg-cover bg-center"
       style="background-image: url(./image/math-cover-image.jpg);">
 
       <!-- Overlay -->
       <div class="hero-overlay bg-black/70"></div>
 
       <!-- Hero Content -->
-      <div class="hero-content text-neutral-content text-center">
+      <div class="hero-content text-neutral-content text-center px-4">
 
         <div class="max-w-2xl">
 
           <!-- Heading -->
           <h1
-            class="mb-5 text-6xl font-extrabold leading-tight"
+            class="mb-5 text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight"
             data-aos="fade-up"
             data-aos-duration="1500">
 
@@ -150,7 +158,7 @@
 
           <!-- Paragraph -->
           <p
-            class="mb-6 text-lg"
+            class="mb-6 text-sm md:text-lg px-2 md:px-0"
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-duration="1500">
@@ -179,8 +187,11 @@
 
   </section>
 
-  <!-- Photosynthesis Section -->
-  <section class="py-12">
+  <!-- =========================
+        Photosynthesis Section
+  ========================== -->
+
+  <section class="py-10 md:py-12 px-2">
 
     <!-- Title -->
     <h1
@@ -188,13 +199,17 @@
       data-aos="fade-right"
       data-aos-duration="1400">
 
-      <span class="font-extrabold text-4xl text-purple-700">P</span>
+      <span class="font-extrabold text-3xl md:text-4xl text-purple-700">
+        P
+      </span>
 
-      <span class="text-2xl text-purple-600">
+      <span class="text-lg md:text-2xl text-purple-600">
         hotosynthesi
       </span>
 
-      <span class="font-extrabold text-4xl text-purple-700">S</span>
+      <span class="font-extrabold text-3xl md:text-4xl text-purple-700">
+        S
+      </span>
 
     </h1>
 
@@ -202,7 +217,7 @@
     <div>
 
       <p
-        class="font-extrabold text-4xl text-center text-purple-700"
+        class="font-extrabold text-xl md:text-4xl text-center text-purple-700 break-words"
         data-aos="zoom-in-up"
         data-aos-duration="1500">
 
@@ -215,8 +230,11 @@
 
   </section>
 
-  <!-- Mathematics Section -->
-  <section class="py-12 px-4">
+  <!-- =========================
+        Mathematics Section
+  ========================== -->
+
+  <section class="py-10 md:py-12 px-2 md:px-4">
 
     <!-- Title -->
     <h1
@@ -224,28 +242,32 @@
       data-aos="fade-left"
       data-aos-duration="1400">
 
-      <span class="font-extrabold text-4xl text-purple-700">M</span>
+      <span class="font-extrabold text-3xl md:text-4xl text-purple-700">
+        M
+      </span>
 
-      <span class="text-2xl text-purple-600">
+      <span class="text-lg md:text-2xl text-purple-600">
         athematic
       </span>
 
-      <span class="font-extrabold text-4xl text-purple-700">S</span>
+      <span class="font-extrabold text-3xl md:text-4xl text-purple-700">
+        S
+      </span>
 
     </h1>
 
     <!-- Table -->
     <div
-      class="overflow-x-auto rounded-3xl shadow-xl border border-purple-200 bg-white max-w-5xl mx-auto p-4"
+      class="overflow-x-auto rounded-3xl shadow-xl border border-purple-200 bg-white max-w-6xl mx-auto p-2 md:p-4"
       data-aos="fade-up"
       data-aos-duration="1500">
 
       <table class="table text-center">
 
-        <!-- Head -->
+        <!-- Table Head -->
         <thead>
 
-          <tr class="text-lg text-purple-700">
+          <tr class="text-xs md:text-lg text-purple-700">
 
             <th>*</th>
             <th>Algebraic Formulas</th>
@@ -255,7 +277,8 @@
 
         </thead>
 
-        <tbody>
+        <!-- Table Body -->
+        <tbody class="text-[10px] md:text-base">
 
           <!-- Row 1 -->
           <tr class="hover:bg-purple-100 hover:scale-[1.01] duration-300">
@@ -325,9 +348,12 @@
 
   </section>
 
-  <!-- Footer -->
+  <!-- =========================
+        Footer Section
+  ========================== -->
+
   <footer
-    class="text-center py-6 text-gray-500 text-sm border-t"
+    class="text-center py-5 md:py-6 text-xs md:text-sm text-gray-500 border-t"
     data-aos="fade-up"
     data-aos-duration="1200">
 
@@ -339,10 +365,12 @@
 
   </footer>
 
-  <!-- AOS JS -->
+  <!-- =========================
+        AOS JS
+  ========================== -->
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- AOS Init -->
   <script>
 
     AOS.init({
