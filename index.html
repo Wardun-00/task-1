@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- aos js link -->
-   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- DaisyUI + Tailwind -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
@@ -18,6 +19,7 @@
 
   <!-- Navbar -->
   <section>
+
     <div class="navbar bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
 
       <!-- Left -->
@@ -33,15 +35,17 @@
               viewBox="0 0 24 24"
               stroke="currentColor">
 
-              <path stroke-linecap="round"
+              <path
+                stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
                 d="M4 6h16M4 12h16M4 18h7" />
+
             </svg>
 
           </div>
 
-          <!-- Dropdown -->
+          <!-- Dropdown Menu -->
           <ul tabindex="-1"
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
 
@@ -63,14 +67,42 @@
 
       </div>
 
-      <!-- Center -->
+      <!-- Center Logo -->
       <div class="navbar-center">
 
-        <a class="text-xl font-mono">
+        <a class="text-xl font-mono tracking-wide">
 
-          <span class="text-5xl font-extrabold text-purple-700">F</span><span
-            class="text-2xl font-bold text-purple-600">ormula</span><span
-            class="text-5xl font-extrabold text-purple-700">S</span>
+          <!-- F -->
+          <span
+            class="text-5xl font-extrabold text-purple-700 inline-block"
+            data-aos="zoom-in-right"
+            data-aos-duration="1200">
+
+            F
+
+          </span>
+
+          <!-- ormula -->
+          <span
+            class="text-2xl font-bold text-purple-600 inline-block"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="1200">
+
+            ormula
+
+          </span>
+
+          <!-- S -->
+          <span
+            class="text-5xl font-extrabold text-purple-700 inline-block"
+            data-aos="zoom-in-left"
+            data-aos-delay="400"
+            data-aos-duration="1200">
+
+            S
+
+          </span>
 
         </a>
 
@@ -86,21 +118,29 @@
       </div>
 
     </div>
+
   </section>
 
   <!-- Hero Section -->
   <section class="max-w-[1820px] mx-auto">
 
-    <div class="hero min-h-[500px] bg-cover bg-center"
+    <div
+      class="hero min-h-[550px] bg-cover bg-center"
       style="background-image: url(./image/math-cover-image.jpg);">
 
+      <!-- Overlay -->
       <div class="hero-overlay bg-black/70"></div>
 
+      <!-- Hero Content -->
       <div class="hero-content text-neutral-content text-center">
 
         <div class="max-w-2xl">
 
-          <h1 data-aos="fade-right" class="mb-5 text-6xl font-extrabold leading-tight ">
+          <!-- Heading -->
+          <h1
+            class="mb-5 text-6xl font-extrabold leading-tight"
+            data-aos="fade-up"
+            data-aos-duration="1500">
 
             Explore
             <span class="text-purple-400">Math</span>
@@ -108,15 +148,27 @@
 
           </h1>
 
-          <p class="mb-6 text-lg">
+          <!-- Paragraph -->
+          <p
+            class="mb-6 text-lg"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="1500">
 
             Learn mathematical formulas, superscript and subscript styles
             in a modern and easy way.
 
           </p>
 
-          <button class="btn btn-primary hover:scale-105 duration-300">
+          <!-- Button -->
+          <button
+            class="btn btn-primary hover:scale-105 duration-300"
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            data-aos-duration="1200">
+
             Get Started
+
           </button>
 
         </div>
@@ -128,12 +180,20 @@
   </section>
 
   <!-- Photosynthesis Section -->
-  <section class="py-10">
+  <section class="py-12">
 
-    <h1 class="text-center mb-5">
+    <!-- Title -->
+    <h1
+      class="text-center mb-5"
+      data-aos="fade-right"
+      data-aos-duration="1400">
 
       <span class="font-extrabold text-4xl text-purple-700">P</span>
-      <span class="text-2xl text-purple-600">hotosynthesi</span>
+
+      <span class="text-2xl text-purple-600">
+        hotosynthesi
+      </span>
+
       <span class="font-extrabold text-4xl text-purple-700">S</span>
 
     </h1>
@@ -141,7 +201,10 @@
     <!-- Formula -->
     <div>
 
-      <p class="font-extrabold text-4xl text-center text-purple-700">
+      <p
+        class="font-extrabold text-4xl text-center text-purple-700"
+        data-aos="zoom-in-up"
+        data-aos-duration="1500">
 
         6CO<sub>2</sub> + 6H<sub>2</sub>O →
         C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>
@@ -153,19 +216,29 @@
   </section>
 
   <!-- Mathematics Section -->
-  <section class="py-10 px-4">
+  <section class="py-12 px-4">
 
-    <h1 class="text-center mb-8">
+    <!-- Title -->
+    <h1
+      class="text-center mb-8"
+      data-aos="fade-left"
+      data-aos-duration="1400">
 
       <span class="font-extrabold text-4xl text-purple-700">M</span>
-      <span class="text-2xl text-purple-600">athematic</span>
+
+      <span class="text-2xl text-purple-600">
+        athematic
+      </span>
+
       <span class="font-extrabold text-4xl text-purple-700">S</span>
 
     </h1>
 
     <!-- Table -->
     <div
-      class="overflow-x-auto rounded-3xl shadow-xl border border-purple-200 bg-white max-w-5xl mx-auto p-4">
+      class="overflow-x-auto rounded-3xl shadow-xl border border-purple-200 bg-white max-w-5xl mx-auto p-4"
+      data-aos="fade-up"
+      data-aos-duration="1500">
 
       <table class="table text-center">
 
@@ -184,8 +257,8 @@
 
         <tbody>
 
-          <!-- Row -->
-          <tr class="hover:bg-purple-100 duration-200">
+          <!-- Row 1 -->
+          <tr class="hover:bg-purple-100 hover:scale-[1.01] duration-300">
 
             <th>*</th>
 
@@ -199,8 +272,8 @@
 
           </tr>
 
-          <!-- Row -->
-          <tr class="hover:bg-purple-100 duration-200">
+          <!-- Row 2 -->
+          <tr class="hover:bg-purple-100 hover:scale-[1.01] duration-300">
 
             <th>*</th>
 
@@ -214,8 +287,8 @@
 
           </tr>
 
-          <!-- Row -->
-          <tr class="hover:bg-purple-100 duration-200">
+          <!-- Row 3 -->
+          <tr class="hover:bg-purple-100 hover:scale-[1.01] duration-300">
 
             <th>*</th>
 
@@ -229,8 +302,8 @@
 
           </tr>
 
-          <!-- Row -->
-          <tr class="hover:bg-purple-100 duration-200">
+          <!-- Row 4 -->
+          <tr class="hover:bg-purple-100 hover:scale-[1.01] duration-300">
 
             <th>*</th>
 
@@ -253,21 +326,32 @@
   </section>
 
   <!-- Footer -->
-  <footer class="text-center py-6 text-gray-500 text-sm border-t">
+  <footer
+    class="text-center py-6 text-gray-500 text-sm border-t"
+    data-aos="fade-up"
+    data-aos-duration="1200">
 
     Made with ❤️ by
+
     <span class="text-purple-700 font-bold">
       Wardun
     </span>
 
   </footer>
 
-   <!-- AOS JS -->
+  <!-- AOS JS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+  <!-- AOS Init -->
   <script>
-    AOS.init();
+
+    AOS.init({
+      once: true,
+      offset: 120,
+    });
+
   </script>
 
 </body>
+
 </html>
